@@ -11,120 +11,173 @@
 </head>
 
 <body>
-    <header class=" bg-dark pt-2 ">
-        <div class="row" >
-        <div class="col-4 ps-5 " >
-            <a href="#" class="text-decoration-none"><h3 class="text-danger">BookMyShow</h3></a>
-        </div>
-        <div class="col-4 pt-2 px-3 d-flex justify-content-center">
-           <nav>
-            <ul class="list-inline">
-                <li class="list-inline-item "><a href="#" class="text-white" style="text-decoration: none;">Movies</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Stream</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Events</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Plays</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Sports</a></li>
-                <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Concerts</a></li>
+    <!-- Header Section -->
+    <header class="bg-dark pt-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Logo Section -->
+                <div class="col-4 ps-5">
+                    <a href="#" class="text-decoration-none">
+                        <h3 class="text-danger">BookMyShow</h3>
+                    </a>
+                </div>
 
-            </ul>
-           </nav>
+                <!-- Navigation Menu -->
+                <div class="col-4">
+                    <nav class="text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Movies</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Stream</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Events</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Plays</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Sports</a></li>
+                            <li class="list-inline-item"><a href="#" class="text-white" style="text-decoration: none;">Concerts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Search Bar -->
+                <div class="col-4 pe-5">
+                    <form class="d-flex">
+                        <input type="search" class="form-control me-2" id="search" placeholder="Search for Movies, Events, and Sports">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="col-4  pt-1 pe-4 d-flex justify-content-end">
-            <form action="">
-                <input type="search form-control-rounded " id="search" placeholder="Search for Movies,Events and Sports">
-                <button class="btn btn-outline-light " type="submit">Search</button>
-               
-            </form>
-        </div>
-    </div>
     </header>
-    
+
+    <!-- Movie Cards Section -->
     <div class="container p-3">
-        <div class="row">
-            <div class="col mb-2">
+        <div class="row mt-2">
+            <!-- Movie Card 1 -->
+            <div class="col-md-3 col-sm-6 mb-2">
                 <div class="card">
-                    <img class=" image-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/vettaiyan-et00379391-1727938465.jpg" alt="">
+                    <img class="img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/vettaiyan-et00379391-1727938465.jpg" alt="Vettaiyan">
                     <div class="card-body">
                         <p class="h5 card-title">Vettaiyan</p>
                         <p class="card-text">Drama</p>
                     </div>
-                    
                 </div>
             </div>
-            <div class="col mb-2">
+            <!-- Movie Card 2 -->
+            <div class="col-md-3 col-sm-6 mb-2">
                 <div class="card">
-                    <img class=" image-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/sattam-en-kayil-et00412489-1726743894.jpg" alt="">
+                    <img class="img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/sattam-en-kayil-et00412489-1726743894.jpg" alt="Sattam En Kayil">
                     <div class="card-body">
                         <p class="h5 card-title">Sattam En Kayil</p>
                         <p class="card-text">Drama</p>
                     </div>
-                    
                 </div>
             </div>
-            <div class="col mb-2">
+            <!-- Movie Card 3 -->
+            <div class="col-md-3 col-sm-6 mb-2">
                 <div class="card">
-                    <img class=" img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/hitler-et00413125-1727093184.jpg" alt="">
+                    <img class="img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/website/poster/large/hitler-et00413125-1727093184.jpg" alt="Hitler">
                     <div class="card-body">
                         <p class="h5 card-title">Hitler</p>
                         <p class="card-text">Drama</p>
                     </div>
-                    
                 </div>
             </div>
-            <div class="col mb-2">
+            <!-- Movie Card 4 -->
+            <div class="col-md-3 col-sm-6 mb-2">
                 <div class="card">
-                    <img class=" img-fluid rounded" src="https://i.pinimg.com/564x/b4/7f/51/b47f51320f0a241a224f7f6a3af00568.jpg" alt="">
+                    <img class="img-fluid rounded" src="https://i.pinimg.com/564x/b4/7f/51/b47f51320f0a241a224f7f6a3af00568.jpg" alt="Joker">
                     <div class="card-body">
                         <p class="h5 card-title">Joker</p>
                         <p class="card-text">Drama</p>
                     </div>
-                    
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col mb-2">
+
+        <div class="row mt-2">
+            <!-- Movie Card 5 -->
+            <div class="col-md-3 col-sm-6 mb-2">
                 <div class="card">
-                    <img class=" img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-greatest-of-all-time-et00401439-1725014428.jpg" alt="">
+                    <img class="img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/the-greatest-of-all-time-et00401439-1725014428.jpg" alt="G.O.A.T">
                     <div class="card-body">
                         <p class="h5 card-title">G.O.A.T</p>
                         <p class="card-text">Drama</p>
                     </div>
-                    
                 </div>
             </div>
-            <div class="col mb-2">
+            <!-- Movie Card 6 -->
+            <div class="col-md-3 col-sm-6 mb-2">
                 <div class="card">
-                    <img class=" img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/vaazhai-et00408594-1724233930.jpg" alt="">
+                    <img class="img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/vaazhai-et00408594-1724233930.jpg" alt="Vaazhai">
                     <div class="card-body">
                         <p class="h5 card-title">Vaazhai</p>
                         <p class="card-text">Drama</p>
                     </div>
-                    
                 </div>
             </div>
-            <div class="col mb-2">
+            <!-- Movie Card 7 -->
+            <div class="col-md-3 col-sm-6 mb-2">
                 <div class="card">
-                    <img class=" img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/meiyazhagan-et00405427-1721627107.jpg" alt="">
+                    <img class="img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/meiyazhagan-et00405427-1721627107.jpg" alt="Meiyazhagan">
                     <div class="card-body">
                         <p class="h5 card-title">Meiyazhagan</p>
                         <p class="card-text">Drama</p>
                     </div>
-                    
                 </div>
             </div>
-            <div class="col mb-2">
+            <!-- Movie Card 8 -->
+            <div class="col-md-3 col-sm-6 mb-2">
                 <div class="card">
-                    <img class=" img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/bigil-et00105457-1667802781.jpg" alt="">
+                    <img class="img-fluid rounded" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/bigil-et00105457-1667802781.jpg" alt="Bigil">
                     <div class="card-body">
                         <p class="h5 card-title">Bigil</p>
                         <p class="card-text">Drama</p>
                     </div>
-                    
                 </div>
             </div>
         </div>
     </div>
+
+  <!-- Footer Section -->
+<footer class="bg-light py-4">
+    <div class="container">
+        <div class="row">
+            <!-- Book My Show Section -->
+            <div class="col-md-4 d-flex flex-column justify-content-start">
+                <p class="h6 text-uppercase p-3">Book My Show</p>
+                <div>
+                    <p class="text-secondary p-1">
+                        Your go-to platform for booking movie tickets, finding showtimes, and exploring the latest films.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Popular Movies Section -->
+            <div class="col-md-4 d-flex flex-column align-items-center">
+                <p class="h6 text-uppercase p-3 ps-0">Popular Movies</p>
+                <div>
+                    <ul class="list-unstyled">
+                        <li class="pb-2"><a href="" class="text-secondary">Latest Releases</a></li>
+                        <li class="pb-2"><a href="" class="text-secondary">Upcoming Movies</a></li>
+                        <li class="pb-2"><a href="" class="text-secondary">Top Rated</a></li>
+                        <li class="pb-2"><a href="" class="text-secondary">Now Showing</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div class="col-md-4 d-flex flex-column align-items-end justify-content-center">
+                <p class="h6 text-uppercase p-3 pe-5">Contact Us</p>
+                <div>
+                    <p class="text-secondary">123 Movie Lane, Cinema City, NY <br>10012, US</p>
+                    <p class="text-secondary">support@bookmyshow.com</p>
+                    <p class="text-secondary">+1 234 567 8900</p>
+                    <p class="text-secondary">+1 234 567 8901</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
 </body>
 
 </html>
