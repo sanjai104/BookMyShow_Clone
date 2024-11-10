@@ -45,6 +45,7 @@ To view and use this website, follow these steps:
 ## Screenshots
 
 ![Screenshot of BookMyShow Clone](assets/2.png)
+![Screenshot of BookMyShow Clone](assets/1.png)
 
 
 ## Contributions
